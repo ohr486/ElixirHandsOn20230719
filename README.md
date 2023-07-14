@@ -10,7 +10,7 @@ TODO
 
 ## サンプルアプリ
 
-[web\_server](https://github.com/ohr486/ElixirHandsOn20230719/tree/main/ex_demo)
+[web\_server](https://github.com/ohr486/ElixirHandsOn20230719/tree/main/web_server)
 
 ## ハンズオン資料
 
