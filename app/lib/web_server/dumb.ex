@@ -2,8 +2,8 @@ defmodule WebServer.Dumb do
   require Logger
 
   def start(port \\ 8000) do
+    Logger.info "Start dumb server on #{port} port ..."
     {:ok, listen_sock} = :gen_tcp.listen(port, [:binary, packet: :line, active: false, reuseaddr: true])
-    Logger.info "Start Dumb Server on #{port} port ..."
     loop_acceptor(listen_sock)
   end
 

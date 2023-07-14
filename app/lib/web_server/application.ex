@@ -10,6 +10,9 @@ defmodule WebServer.Application do
     children = [
       # Starts a worker by calling: WebServer.Worker.start_link(arg)
       # {WebServer.Worker, arg}
+
+      #{WebServer.DumbServer, 8000},
+      {WebServer.HelloServer, 8001}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
