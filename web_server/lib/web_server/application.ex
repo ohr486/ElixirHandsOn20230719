@@ -12,7 +12,7 @@ defmodule WebServer.Application do
       # {WebServer.Worker, arg}
 
       # コメントアウトして、DumbServerを、start_link(8000)で起動
-      #{WebServer.Dumberver, 8000}
+      #{WebServer.DumbServer, 8000}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
