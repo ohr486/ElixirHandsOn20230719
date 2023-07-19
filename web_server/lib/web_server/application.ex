@@ -11,7 +11,8 @@ defmodule WebServer.Application do
       # Starts a worker by calling: WebServer.Worker.start_link(arg)
       # {WebServer.Worker, arg}
 
-      #{WebServer.Dumberver, 8000} # 有効にするにはコメントアウト
+      # コメントアウトして、DumbServerを、start_link(8000)で起動
+      #{WebServer.Dumberver, 8000}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
