@@ -46,7 +46,7 @@ defmodule WebServer.Hello do
   end
 
   def send_resp(accept_sock) do
-    msg = "Hello, World!"
+    msg = "Hello, Elixir!"
     resp_msg = """
 HTTP/1.1 200 OK
 Content-Length: #{String.length(msg)}
